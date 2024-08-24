@@ -38,7 +38,7 @@ def display_section(section):
         )
 
         # Load the image from the file system
-        image_path = "C:/Users/abc/Desktop/Profile Photo/Gayasuddin_Photo.jpg"
+        image_path = "Gayasuddin_Photo.jpg"
         image = Image.open(image_path)
 
         # Display the image with CSS applied
@@ -56,7 +56,7 @@ def display_section(section):
         """)
 
         # Resume download button
-        resume_path = "C:/Users/abc/Desktop/me_Resume/Gayasuddin.pdf"
+        resume_path = "Gayasuddin.pdf"
         with open(resume_path, "rb") as resume_file:
             resume_data = resume_file.read()
 
